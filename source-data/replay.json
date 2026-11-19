@@ -15,6 +15,25 @@
     }
   },
   {
+    "record": "replay-6",
+    "availableFrom": 1,
+    "kind": "caption",
+    "payload": {
+      "session": "A36",
+      "part": "V1",
+      "cue": "CAP6",
+      "local": [
+        11200,
+        13000
+      ],
+      "text": "松桥铺白盒 K11 的免邮，",
+      "sku": "K11",
+      "merchant": "松桥铺",
+      "continuation": "CLAIM8",
+      "revision": 1
+    }
+  },
+  {
     "record": "replay-2",
     "availableFrom": 2,
     "kind": "video",
@@ -42,6 +61,7 @@
         3900
       ],
       "text": "刚才那款这场结束前也免邮。",
+      "continuation": "CLAIM8",
       "revision": 1
     }
   },
@@ -69,6 +89,7 @@
       ],
       "text": "白盒 K11 这场结束前也免邮。",
       "sku": "K11",
+      "continuation": "CLAIM8",
       "revision": 2
     }
   }
