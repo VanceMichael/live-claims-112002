@@ -1,0 +1,19 @@
+{
+  "sources": [
+    "replay",
+    "control",
+    "listings"
+  ],
+  "stages": 4,
+  "originals": [
+    "v1.txt",
+    "v2.txt"
+  ],
+  "originalStages": {
+    "v2.txt": 2
+  },
+  "digests": {
+    "v1.txt": "f0575ee79d2cd7fa58a31d6daddcb409744809d244fd45ac2a66c2bf78ebfc2e",
+    "v2.txt": "9f4fea7f90fbc54cdc774e42d5ce7506fc239e2cdea42ae000bd93755ef289e0"
+  }
+}

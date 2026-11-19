@@ -1,0 +1,62 @@
+[
+  {
+    "record": "control-1",
+    "availableFrom": 1,
+    "kind": "card",
+    "payload": {
+      "broadcast": "L1",
+      "card": "KD1",
+      "sku": "K11",
+      "merchant": "松桥铺",
+      "span": [
+        9000,
+        15000
+      ],
+      "revision": 1
+    }
+  },
+  {
+    "record": "control-2",
+    "availableFrom": 1,
+    "kind": "card",
+    "payload": {
+      "broadcast": "L1",
+      "card": "KD2",
+      "sku": "K11",
+      "merchant": "溪岸铺",
+      "span": [
+        14000,
+        18500
+      ],
+      "revision": 1
+    }
+  },
+  {
+    "record": "control-4",
+    "availableFrom": 3,
+    "kind": "read",
+    "payload": {
+      "check": "E81",
+      "session": "A37",
+      "cue": "CAP8",
+      "card": "KD1",
+      "revision": 1
+    }
+  },
+  {
+    "record": "control-3",
+    "availableFrom": 4,
+    "kind": "card",
+    "payload": {
+      "broadcast": "L1",
+      "card": "KD2",
+      "sku": "K11",
+      "merchant": "溪岸铺",
+      "span": [
+        16200,
+        18500
+      ],
+      "revision": 2
+    }
+  }
+]

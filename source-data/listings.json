@@ -1,0 +1,47 @@
+[
+  {
+    "record": "listings-1",
+    "availableFrom": 1,
+    "kind": "terms",
+    "payload": {
+      "merchant": "松桥铺",
+      "sku": "K11",
+      "valid": [
+        0,
+        18000
+      ],
+      "shipment": "免运费",
+      "edition": "MX1"
+    }
+  },
+  {
+    "record": "listings-2",
+    "availableFrom": 1,
+    "kind": "terms",
+    "payload": {
+      "merchant": "溪岸铺",
+      "sku": "K11",
+      "valid": [
+        13000,
+        19000
+      ],
+      "shipment": "满额免运费",
+      "edition": "MX2"
+    }
+  },
+  {
+    "record": "listings-3",
+    "availableFrom": 4,
+    "kind": "terms",
+    "payload": {
+      "merchant": "松桥铺",
+      "sku": "K11",
+      "valid": [
+        18000,
+        35000
+      ],
+      "shipment": "按区配送",
+      "edition": "MX3"
+    }
+  }
+]

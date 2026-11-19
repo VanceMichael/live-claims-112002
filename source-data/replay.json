@@ -1,0 +1,75 @@
+[
+  {
+    "record": "replay-1",
+    "availableFrom": 1,
+    "kind": "video",
+    "payload": {
+      "broadcast": "L1",
+      "session": "A36",
+      "part": "V1",
+      "span": [
+        0,
+        13000
+      ],
+      "artifact": "v1.txt"
+    }
+  },
+  {
+    "record": "replay-2",
+    "availableFrom": 2,
+    "kind": "video",
+    "payload": {
+      "broadcast": "L1",
+      "session": "A37",
+      "part": "V1",
+      "span": [
+        0,
+        13000
+      ],
+      "artifact": "v2.txt"
+    }
+  },
+  {
+    "record": "replay-3",
+    "availableFrom": 2,
+    "kind": "caption",
+    "payload": {
+      "session": "A37",
+      "part": "V1",
+      "cue": "CAP8",
+      "local": [
+        1200,
+        3900
+      ],
+      "text": "刚才那款这场结束前也免邮。",
+      "revision": 1
+    }
+  },
+  {
+    "record": "replay-4",
+    "availableFrom": 3,
+    "kind": "clock",
+    "payload": {
+      "broadcast": "L1",
+      "session": "A37",
+      "offset": 13000
+    }
+  },
+  {
+    "record": "replay-5",
+    "availableFrom": 4,
+    "kind": "caption",
+    "payload": {
+      "session": "A37",
+      "part": "V1",
+      "cue": "CAP8",
+      "local": [
+        1000,
+        4300
+      ],
+      "text": "白盒 K11 这场结束前也免邮。",
+      "sku": "K11",
+      "revision": 2
+    }
+  }
+]
