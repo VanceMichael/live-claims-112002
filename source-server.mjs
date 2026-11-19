@@ -64,7 +64,7 @@ export async function start({ port = 0, host = '127.0.0.1', portal } = {}) {
           sendJson(response, 404, { error: '本轮暂未提供此原件' });
           return;
         }
-        response.writeHead(200, { 'Content-Type': 'application/octet-stream' });
+        response.writeHead(200, { 'Content-Type': 'video/webm' });
         response.end(await readFile(new URL(asset[1], files)));
         return;
       }

@@ -6,14 +6,14 @@
   ],
   "stages": 4,
   "originals": [
-    "v1.txt",
-    "v2.txt"
+    "v1.webm",
+    "v2.webm"
   ],
   "originalStages": {
-    "v2.txt": 2
+    "v2.webm": 2
   },
   "digests": {
-    "v1.txt": "f0575ee79d2cd7fa58a31d6daddcb409744809d244fd45ac2a66c2bf78ebfc2e",
-    "v2.txt": "9f4fea7f90fbc54cdc774e42d5ce7506fc239e2cdea42ae000bd93755ef289e0"
+    "v1.webm": "4b78874d0921fd9a582f002002dfb57bace8f23cc77c53691344a1ff6d6889b6",
+    "v2.webm": "8e5c4a657ab938c333b6131fa68f0de8dbd2010ec29bba418d745716cdfd57d9"
   }
 }

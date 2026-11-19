@@ -42,7 +42,9 @@ test('资料在指定回放阶段从来源完整分页返回', async (t) => {
       const response = await fetch(`${url}/original/${name}`);
       if (stage >= (index.originalStages[name] ?? 1)) {
         assert.equal(response.status, 200);
+        assert.equal(response.headers.get('content-type'), 'video/webm');
         const bytes = await response.arrayBuffer();
+        assert.equal(Buffer.from(bytes).readUInt32BE(0), 0x1a45dfa3);
         assert.equal(createHash('sha256').update(Buffer.from(bytes)).digest('hex'), index.digests[name]);
       } else {
         assert.equal(response.status, 404);
